@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* universal selector */
+    *{
+        background-color: black;
+    }
+    /* grouping Selector */
+    h1,p,a,h3{
+        color: aquamarine;
+    } 
+    /* descendant selector */
+    div p span{
+        color: blueviolet;
+    }
+    /* child Selector */
+    div>p{
+        color: brown;
+    }
+    p{
+        color: rgb(46, 12, 241);
+    }
+    .textgreen{
+        color: rgb(21, 241, 32);
+    }
+    .textpink.largertext {
+        color: rgb(255, 0, 212);
+        font-size: 30px;
+    }
+    .textred {
+        color: red;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    #unique {
+        color: rgb(247, 107, 14);
+    }   
+</style>
+
+<body>
+    <!-- div Selector -->
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum saepe maxime aliquid ratione vitae dolorum esse
+        odit alias amet architecto ab est fuga eligendi nostrum explicabo tempora aut, sed nesciunt!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet incidunt nisi, modi aliquid dolorum ut optio sint
+        reiciendis adipisci, similique sequi, quod magni. Exercitationem error unde labore illum ipsa soluta?</p>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, perferendis. Adipisci quibusdam numquam
+            itaque officiis consectetur, eaque voluptatem eum officia quae perspiciatis, dolor est iure rem deleniti
+            vero natus velit?
+        </p>
+    </div>
+    <!-- class selector -->
+    <h1>Class Selector</h1>
+    <p class="textpink largertext">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus nostrum quos expedita aliquid ut
+        corrupti minima non! Delectus aliquam vel officia quam! Ut quia quas beatae vel natus minus earum.
+    </p>
+    <p class="textgreen fontchange">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis delectus impedit provident accusantium dolorum
+        placeat minus explicabo reiciendis, vero dolores saepe eum eveniet in vel at doloremque. Ratione, hic id.
+    </p>
+    <p class="textred" id="unique">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae minus exercitationem, expedita aspernatur
+        voluptates esse optio. Quisquam, omnis aliquid et beatae cumque libero, porro odio quidem magnam unde quaerat
+        fuga!
+    </p>
+
+    <!-- grouping selector -->
+    <h1> this is h1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ad cum autem sed ratione tenetur atque quidem
+        aliquid Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt in dolores accusantium, et commodi
+        molestias, reiciendis, necessitatibus omnis beatae delectus debitis quisquam quibusdam quasi dicta ullam!
+        Distinctio perferendis quia accusamus. illum harum quae excepturi voluptatem, quo obcaecati fuga est delectus,
+        sunt praesentium!</p>
+
+        <a href="www.google.com">Google</a>
+
+    <h3>this is h3</h3>
+
+    <!-- combinator selector -->
+    <div>
+        <p>
+            <span>I am child</span>
+        </p>
+    </div>
+     
+    <div>
+        <span>
+            <p>
+                I am descentdant
+            </p>   
+        </span>
+    </div>
+
+</body>
+
+</html>
