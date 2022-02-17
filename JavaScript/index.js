@@ -63,16 +63,22 @@ for(let i = 0;i<num;i++)
  let j = 20;
  if(i%2 ==0){
      let hello = 1000;
-     console.log(i);
+    //  console.log(i);
      console.log(hello);
  }
  console.log("inner"+j);
 }
  console.log("outer"+j);
- console.log(`value of i is ` ${i});
+//  console.log(`value of i is ` ${i});
  console.log(hello); // error dega hello is not defiend 
 
  {
     //  this is block opening and closing of curly braces is a block
  }
+
+
+
+
+
+
  
