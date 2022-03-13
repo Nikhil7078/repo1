@@ -70,3 +70,4 @@ array2d[1][1] = false;
 console.table(array2d);
 //directory
 // 
+//
