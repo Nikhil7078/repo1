@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="col-md-9" style="padding-left:0px;margin-left:0px;">
+        +&nbsp;<input name="new_cases" type="number" onkeypress='return event.charCode >= 48 && event.charCode <= 57'
+            class="form-control case_number" id="new_cases" />&nbsp;&nbsp;=&nbsp;&nbsp;<input
+            onkeypress='return event.charCode >= 48 && event.charCode <= 57' name="total_cases" type="number"
+            class="form-control case_number" id="total_cases" />&nbsp;total cases </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-md-3">
+            <label for="new_deaths" class="form_labels" style="line-height:34px;">New Deaths:</label>
+        </div>
+        <div class="col-md-9" style="padding-left:0px;margin-left:0px;">
+            +&nbsp;<input name="new_deaths" type="number"
+                onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="form-control case_number"
+                id="new_deaths" />&nbsp;&nbsp;=&nbsp;&nbsp;<input
+                onkeypress='return event.charCode >= 48 && event.charCode <= 57' name="total_deaths" type="number"
+                class="form-control case_number" id="total_deaths" />&nbsp;total deaths </div>
+    </div>
+
+</body>
+</html>
