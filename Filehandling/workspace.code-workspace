@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "WebDevelopment",
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\..\\Desktop\\c++"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"*.tcc": "cpp"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "WebDevelopment"
+	}
+}
