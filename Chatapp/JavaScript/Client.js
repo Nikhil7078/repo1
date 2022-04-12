@@ -12,8 +12,6 @@ var audio = new Audio('Sound/Ting.mp3');
    messagecontainer.append(messageElement);
    audio.play();
  }
-
- 
  const Name = prompt("Enter your name to join");
  socket.emit('new-user-joined',Name);
 
@@ -32,3 +30,5 @@ form.addEventListener('submit',(e)=>
  socket.on('Receive',data =>{
     append(data.message,'messageleft')
  });
+
+ 
