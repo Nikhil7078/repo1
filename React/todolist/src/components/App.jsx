@@ -2,10 +2,10 @@ import Head from '../MyComponent/header'
 import { Footer } from '../MyComponent/Footer'
 import { Todos } from '../MyComponent/Todos'
 import React,{ useState } from 'react';
+import { AddTodo } from '../MyComponent/Addtodo';
 
 export default function App() 
 {
- 
   const onDelete = (todo) => 
   {
     console.log("this is delete");
@@ -34,8 +34,9 @@ export default function App()
   return (
     <>
       <Head title="My todo list" searchbar={false} />
+      <AddTodo/>
       <Todos todos={todos} onDelete={onDelete} />
-      <Footer />
+      <Footer/>
     </>
   );
 }
